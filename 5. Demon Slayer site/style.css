@@ -1,0 +1,115 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing:border-box;
+}
+
+html,body{
+    width: 100%;
+    height: 100%;
+}
+
+.full-box{
+    width: 100%;
+    height: 100%;
+    background-color: black;
+    display: flex;
+}
+
+.navbar{
+    width: 12.3%;
+    height: 100%;
+    background-color: aliceblue;
+}
+
+.content-box{
+    width:87.7%;
+    height: 100%;
+}
+
+.Dlogo{
+    width: 100%;
+    height: 23.9%;
+}
+
+.Dlogo img{
+    width: 100%;
+    height: 100%;
+}
+
+.panel{
+    background-color:black;
+    width: 100%;
+    height: 78%;
+}
+
+.menu{
+  
+    width: 100%;
+    height: 85%
+}
+
+.menu p{
+    padding-top: 4%;
+    padding-bottom: 4%;
+    padding-left: 7%;
+    font-size: 120%;
+    color: white;
+}
+
+.menu ul{
+    word-spacing: 5px;
+    padding-top: 5%;
+    padding-bottom: 4%;
+    padding-left: 7%;
+    font-size: 120%;
+    color: white;
+    list-style-type: none;
+}
+
+li{
+    margin-bottom:2.2% ;
+    font-size: 100%;
+    font-weight: 500;
+}
+
+span{
+    padding-left: 5px;
+    padding-right: 5px;
+    background-color: rgb(120, 70, 5);
+}
+.links li{
+    font-weight: 500;
+}
+
+.cookies{
+    background-color: rgb(253, 250, 244);
+    width: 66%;
+    height: 6%;
+    margin-left: 7%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.cookies p{
+    color: rgb(85, 216, 85);
+    font-size: 95%;
+    font-weight: 50;
+}
+
+.icons{
+    background-color: black;
+    width: 100%;
+    height: 15%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.link{
+    font-size: 190%;
+    color: white;
+    padding-left: 8%;
+}
+
