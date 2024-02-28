@@ -22,11 +22,6 @@ html,body{
     background-color: aliceblue;
 }
 
-.content-box{
-    width:87.7%;
-    height: 100%;
-}
-
 .Dlogo{
     width: 100%;
     height: 23.9%;
@@ -40,7 +35,7 @@ html,body{
 .panel{
     background-color:black;
     width: 100%;
-    height: 78%;
+    height: 76.2%;
 }
 
 .menu{
@@ -110,6 +105,62 @@ span{
 .link{
     font-size: 190%;
     color: white;
-    padding-left: 7%;
+    padding-left: 8%;
 }
 
+.content-box{
+    width:87.7%;
+    height: 100%;
+}
+
+
+.newss{
+    background-color: white;
+    width: 100%;
+    height: 5%;
+    display: flex;
+}
+
+.imagee{
+    background-color: saddlebrown;
+    width: 100%;
+    height: 80%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.news-label{
+    background-color: black;
+    height: 100%;
+    width: 6%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.msg{
+    background-color: black;
+    height: 100%;
+    width: 94%;
+    display: flex;
+    align-items: center;
+    color: white;
+}
+
+.news-label p{
+    color: red;
+    font-size: 22px;
+    font-weight: 800;
+}
+.Date{
+    margin-left: 8px;
+    margin-right: 25px;
+    font-size: 19px;
+    font-weight: 500;
+}
+
+.Info{
+    font-size: 24px;
+    font-weight: 500;
+}
