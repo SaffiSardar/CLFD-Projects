@@ -1,0 +1,139 @@
+/* Google Poppins */
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600&display=swap');
+
+* {
+    margin : 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
+}
+
+section{
+    position: relative;
+    min-height: 100vh;
+    width: 100%;
+    background: #02032f;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: #fff;
+}
+section::before{
+    content: "";
+    position: absolute;
+    height: 240px;
+    width: 240px;
+    border-radius: 50%;
+    transform: translate(-150px, -100px);
+    background: linear-gradient(90deg,#BCC6CC, #32527B);
+}
+
+section::after{
+    content: "";
+    position: absolute;
+    height: 240px;
+    width: 240px;
+    border-radius: 50%;
+    transform: translate(150px, 100px);
+    background: linear-gradient(90deg,#BCC6CC, #32527B);
+}
+
+.container{
+    position: relative;
+    height: 225px;
+    width: 375px;
+    z-index: 100;
+}
+
+.container .card{
+    height: 100%;
+    width: 100%;
+    border-radius: 25px;
+    backdrop-filter: blur(25px);
+    background: rgba(47, 0, 255, 0);
+    box-shadow: 0 25px 45px rgba(0, 0, 0, 0.25);
+    border: 1px solid rgba(43, 0, 255, 0.1);
+    padding: 25px;
+}
+
+.front-face header,
+.front-face .logo{
+    display: flex;
+    align-items: center;
+}
+
+
+.front-face header{
+    justify-content: space-between;
+}
+
+.front-face .logo img{
+width: 48px;
+margin-right: 10px;
+}
+h5{
+    font-size: 16px;
+    font-weight: 400;
+}
+
+.front-face .chip{
+    width: 50px;
+}
+h6{
+    font-size: 16px;
+    font-weight: 400;
+}
+.front-face .card-details{
+    display: flex;
+    margin-top: 40px;
+    align-items: flex-end;
+    justify-content: space-between;
+
+}
+
+h5.number{
+    font-size: 18px;
+    letter-spacing: 1px;
+}
+
+h5.name{
+    margin-top: 20px;
+}
+h1{
+    font-size: 9px;
+    font-weight: 300;
+    padding-bottom: 9px;
+}
+
+.card .back-face{
+    border: none;
+    padding: 15px 25px 25px 25px;
+}
+
+.card.back-face .black-scan{
+    content: '';
+    position: absolute;
+    top: 100;
+    left: 0;
+    height: 20%;
+    width: 100%;
+    border-radius: 0 0 0 0;
+    background-color: #000000;
+}
+.card.back-face .barcodes{
+    align-items: center;
+    padding-top: 70px;
+}
+.card.back-face .barcodes .skits{
+    border-radius: 5px;
+}
+.card.barcodes .vin{
+    border-radius: 2px;
+    margin: 0;
+}
+
+p{
+    font-size: 9px;
+    font-weight: 300;
+    padding-top: 10px;
+}

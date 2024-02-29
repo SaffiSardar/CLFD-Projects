@@ -1,0 +1,206 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing:border-box;
+}
+
+html,body{
+    width: 100%;
+    height: 100%;
+}
+
+.full-box{
+    width: 100%;
+    height: 100%;
+    
+    display: flex;
+    background:url(back.PNG);
+}   
+
+.navbar{
+    width: 12.3%;
+    height: 100%;
+    background-color: aliceblue;
+    
+}
+
+.Dlogo{
+    width: 100%;
+    height: 23.9%;
+}
+
+.Dlogo img{
+    width: 100%;
+    height: 100%;
+}
+
+.panel{
+    background-color:black;
+    width: 100%;
+    height: 76.2%;
+}
+
+.menu{
+  
+    width: 100%;
+    height: 85%
+}
+
+.menu p{
+    padding-top: 4%;
+    padding-bottom: 4%;
+    padding-left: 7%;
+    font-size: 120%;
+    color: white;
+}
+
+.menu p:hover{
+    color: wheat;
+}
+
+.menu ul{
+    word-spacing: 5px;
+    padding-top: 5%;
+    padding-bottom: 4%;
+    padding-left: 7%;
+    font-size: 120%;
+    color: white;
+    list-style-type: none;
+}
+
+li{
+    margin-bottom:2.2% ;
+    font-size: 100%;
+    font-weight: 500;
+}
+
+li:hover{
+    color: wheat;
+}
+
+a:hover{
+    color: rgb(249, 205, 124);
+}
+
+span{
+    padding-left: 5px;
+    padding-right: 5px;
+    background-color: rgb(120, 70, 5);
+}
+.links li{
+    font-weight: 500;
+}
+
+.cookies{
+    background-color: rgb(253, 250, 244);
+    width: 66%;
+    height: 6%;
+    margin-left: 7%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.cookies:hover{
+    background-color: rgb(68, 180, 68);
+}
+
+.cookies p:hover{
+    color: white;
+}
+
+.cookies p{
+    color: rgb(85, 216, 85);
+    font-size: 95%;
+    font-weight: 50;
+}
+
+.icons{
+    background-color: black;
+    width: 100%;
+    height: 15%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.link{
+    font-size: 190%;
+    color: white;
+    padding-left: 8%;
+}
+
+.content-box{
+    width:87.7%;
+    height: 100%;
+
+}
+
+
+.newss{
+    background-color: white;
+    width: 100%;
+    height: 5%;
+    display: flex;
+}
+
+
+
+.news-label{
+    background-color: black;
+    height: 100%;
+    width: 6%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.msg{
+    background-color: black;
+    height: 100%;
+    width: 94%;
+    display: flex;
+    align-items: center;
+    color: white;
+}
+
+
+.news-label p{
+    color: red;
+    font-size: 22px;
+    font-weight: 800;
+}
+
+.msg p:hover{
+    background-color: rgb(120, 70, 5);
+}
+
+.Date{
+    margin-left: 8px;
+    margin-right: 25px;
+    font-size: 19px;
+    font-weight: 500;
+}
+
+.Info{
+    font-size: 24px;
+    font-weight: 500;
+}
+
+.imagee{
+    background: url(back.PNG);
+    width: 100%;
+    height: 80%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.imagee img{
+    width: 99%;
+    height: 98%;
+}
+
+.imagee img:hover{
+    transform: scale(1.005);
+}
