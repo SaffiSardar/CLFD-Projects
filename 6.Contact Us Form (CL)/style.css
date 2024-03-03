@@ -1,0 +1,132 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing:border-box;
+}
+
+html,body{
+    width: 100%;
+    height: 100%;
+}
+
+.main-box{
+    width: 100%;
+    height: 100%;
+    background-color: #83c5be;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.contact-box{
+    width: 60%;
+    height: 60%;
+    background-color: white;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 10px;
+    box-shadow: -17px 15px 25px -1px rgba(146,161,171,0.83);
+}
+
+.media-panel{
+    height: 100%;
+    width:29.7%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.media-container{
+    text-align: center;
+}
+
+.logo{
+    margin-top: 9%;
+    margin-bottom: 3%;
+    font-size: 330%;
+    color: rgb(40, 40, 114);
+}
+
+.description{
+    font-size: 130%;
+    font-weight: 600;
+}
+
+.info{
+    color: grey;
+}
+
+.center-panel{
+    height: 50%;
+    width: 0.3%;
+    background-color: grey;
+    opacity: 0.4;
+
+}
+.details-panel{
+    height: 100%;
+    width:70%;
+    padding: 4% 4% 4% 4%;
+}
+
+.title{
+    font-size: 28px;
+    font-weight: 600;
+    color: rgb(40, 40, 114);
+}
+
+.queries{
+    color: grey;
+    margin-top: 1%;
+    margin-bottom: 2%;
+}
+
+.form-details{
+    width: 100%;
+    height: 60%;
+        margin-top: 1%;
+    margin-bottom: 1%;
+    display: flex;
+    align-items: center;
+
+}
+
+.box{
+    width: 100%;
+}
+
+.name input{
+    width: 100%;
+    height: 60px;
+}
+
+.email input{
+    width: 100%;
+    height: 60px;
+}
+
+.message input{
+    width: 100%;  
+    height: 120px;  
+}
+
+input{
+    margin-top: 13px;
+    margin-top: 13px;
+    background-color: rgb(236, 231, 231);
+    border-radius: 7px;
+    border: none;
+    padding-left: 2%;
+}
+
+button{
+    background-color:rgb(40, 40, 114) ;
+    color: white;
+    width: 19%;
+    height: 10%;
+    border-radius: 9px;
+    border-color:rgb(40, 40, 114) ;
+    font-size: 120%;
+}
